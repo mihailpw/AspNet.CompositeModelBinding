@@ -1,0 +1,31 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.31321.278
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AspNet.CompositeModelBinding.Sample", "..\sample\AspNet.CompositeModelBinding.Sample\AspNet.CompositeModelBinding.Sample.csproj", "{F491A813-812A-4A2F-AF0F-AD4087802D9C}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AspNet.CompositeModelBinding", "AspNet.CompositeModelBinding\AspNet.CompositeModelBinding.csproj", "{AD5EA4A8-CE6A-450B-822E-0971290F094B}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{F491A813-812A-4A2F-AF0F-AD4087802D9C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F491A813-812A-4A2F-AF0F-AD4087802D9C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F491A813-812A-4A2F-AF0F-AD4087802D9C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F491A813-812A-4A2F-AF0F-AD4087802D9C}.Release|Any CPU.Build.0 = Release|Any CPU
+		{AD5EA4A8-CE6A-450B-822E-0971290F094B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{AD5EA4A8-CE6A-450B-822E-0971290F094B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{AD5EA4A8-CE6A-450B-822E-0971290F094B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{AD5EA4A8-CE6A-450B-822E-0971290F094B}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {1D2D14B7-751F-47F5-945B-890EDE87145D}
+	EndGlobalSection
+EndGlobal
