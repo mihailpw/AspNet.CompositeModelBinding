@@ -98,17 +98,9 @@ namespace AspNet.CompositeModelBinding
                 }
             }
 
-            if (propertyValue == null)
+            if (propertyValue == null && propertyInfo.PropertyType.IsValueType)
             {
-                if (!sourceAttribute.ForceDrop)
-                {
-                    return;
-                }
-
-                if (propertyInfo.PropertyType.IsValueType)
-                {
-                    propertyValue = Activator.CreateInstance(propertyInfo.PropertyType);
-                }
+                propertyValue = Activator.CreateInstance(propertyInfo.PropertyType);
             }
 
             propertyInfo.SetValue(instance, propertyValue);
